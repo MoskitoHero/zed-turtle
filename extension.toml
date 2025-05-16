@@ -1,0 +1,15 @@
+id = "turtle"
+name = "Turtle"
+version = "0.1.0"
+schema_version = 1
+authors = ["Cédric Delalande <cedric@delalande.me>"]
+description = "RDF Turtle format"
+repository = "https://github.com/MoskitoHero/zed-turtle"
+
+[grammars.turtle]
+repository = "https://github.com/GordianDziwis/tree-sitter-turtle"
+commit = "7f789ea7ef765080f71a298fc96b7c957fa24422"
+
+[language_servers.turtle]
+name = "Turtle Langserver"
+language = "Turtle"

@@ -1,0 +1,5 @@
+name = "Turtle"
+grammar = "turtle"
+path_suffixes = ["ttl", "turtle"]
+line_comments = ["# "]
+tab_size = 2
